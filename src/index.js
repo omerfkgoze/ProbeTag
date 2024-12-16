@@ -6,8 +6,6 @@ const userRoutes = require('./routes/userRoutes');
 const roomRoutes = require('./routes/roomRoutes');
 const authMiddleware = require('./middlewares/authMiddleware');
 
-// MngoDB Password: HexfEGZj3N8IGbgp
-
 // Connect to the database
 dbConnect();
 
